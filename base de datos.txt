@@ -1,0 +1,18 @@
+ MySQL ha devuelto un conjunto de valores vacío (es decir: cero columnas). (La consulta tardó 0,0003 segundos.)
+CREATE TABLE dato ( codigo int PRIMARY KEY, nombre varchar (20) NOT NULL, precio int (4) NOT NULL, existencia int (3) );
+[ Editar en línea ] [ Editar ] [ Crear código PHP ]
+ 1 fila insertada. (La consulta tardó 0,0003 segundos.)
+INSERT INTO dato VALUES (1, 'aviones', 25, 55);
+[ Editar en línea ] [ Editar ] [ Crear código PHP ]
+ 1 fila insertada. (La consulta tardó 0,0088 segundos.)
+INSERT INTO dato VALUES (2, 'motos', 15, 30);
+[ Editar en línea ] [ Editar ] [ Crear código PHP ]
+ 1 fila insertada. (La consulta tardó 0,0003 segundos.)
+INSERT INTO dato VALUES (3, 'carros', 20, 93);
+[ Editar en línea ] [ Editar ] [ Crear código PHP ]
+ 1 fila insertada. (La consulta tardó 0,0003 segundos.)
+INSERT INTO dato VALUES (4, 'barcos', 5, 10);
+[ Editar en línea ] [ Editar ] [ Crear código PHP ]
+ 1 fila insertada. (La consulta tardó 0,0003 segundos.)
+INSERT INTO dato VALUES (5, 'bicicletas', 2, 40);
+[ Editar en línea ] [ Editar ] [ Crear código PHP ]
